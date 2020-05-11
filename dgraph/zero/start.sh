@@ -1,3 +1,4 @@
+#!/bin/bash
 set -ex
 [[ `hostname` =~ -([0-9]+)$ ]] || exit 1
 ordinal=${BASH_REMATCH[1]}
